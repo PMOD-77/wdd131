@@ -23,6 +23,7 @@ hr {
 
 h1, h2, p {
     text-align: center;
+    padding: 0;
 }
 
 #topic {
@@ -39,4 +40,7 @@ img {
 
 .list {
     list-style: none;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
 }
