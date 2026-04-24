@@ -1,0 +1,85 @@
+body {
+    font-family: Georgia, 'Times New Roman', serif;
+    background-color: #e8e8e8;    /* light gray so white card is visible */
+    font-size: 18px;
+}
+
+#content {
+    max-width: 800px;
+    margin: 60px auto;
+    background-color: white;
+    border: 1px solid #999;
+    padding: 80px 100px;
+    text-align: center;
+}
+
+#text-content {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+p {
+    line-height: 1.7;
+    margin-bottom: 16px;
+}
+
+.subtitle {
+    font-style: italic;
+}
+
+.list {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.list li {
+    margin-bottom: 16px;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    text-align: center;
+    letter-spacing: 6px;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: normal;
+    white-space: nowrap;
+}
+
+h2 {
+    text-align: center;
+    color: #035f9c;
+    letter-spacing: 4px;
+    font-size: 0.75em;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0 30px;
+}
+
+.subtitle {
+    font-style: italic;
+}
+
+.list li {
+    margin-bottom: 16px;
+}
+
+img {
+    display: block;
+    margin: 40px auto 0;
+    width: 40%;
+}
+
+p {
+    max-width: 500px;
+    margin: 0 auto 16px;
+    line-height: 1.7;
+}
