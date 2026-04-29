@@ -1,4 +1,5 @@
-let title = document.querySelector('h1');
+let title = document.querySelector("h1");
+document.querySelector("h1").textContent = 'Web Page Components';
 
 console.log(title);
 
@@ -29,4 +30,18 @@ para.classList.add('background');
 
 const image = document.querySelector('img');
 
-image.setAttribute('src', 'images/new-logo.jpg');
+image.setAttribute('src', 'images/new_logo.png');
+
+const dropdown = document.querySelector('#webdevlist');
+const html = document.querySelector('#html');
+const css = document.querySelector('#css');
+const js = document.querySelector('#js');
+
+dropdown.addEventListener('change', function(){
+    html.style.color = 'red';
+    css.style.color = 'red';
+    js.style.color = 'red';
+    let codeValue = dropdown.value;
+    console.log(codeValue);
+    document.getElementById(codeValue).style.color = 'red';
+});
