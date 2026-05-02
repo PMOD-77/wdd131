@@ -4,6 +4,14 @@ body {
     font-size: 18px;
 }
 
+select {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 6px 10px;
+    font-size: 1rem;
+}
+
 #content {
     max-width: 800px;
     margin: 60px auto;
@@ -70,6 +78,7 @@ hr {
 
 .list li {
     margin-bottom: 16px;
+    color: #000000;
 }
 
 img {
