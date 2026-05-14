@@ -8,8 +8,8 @@ function toggleMenu() {
     btn.classList.toggle('change');
 }
 
-let password = '123test';
-let username = 'user_testorian123';
+//let password = '123test';
+//let username = 'user_testorian123';
 
 // if 
 //  (username === 'user_testorian123' && password === '123test') console.log('Welcome, user_testorian123!');
