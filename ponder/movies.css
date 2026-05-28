@@ -62,7 +62,7 @@ header, footer {
         grid-template-columns: 1fr 1fr;
         justify-content: center;
     }
-    movie img {
+    .movie img {
         grid-row: 1/6;
         grid-column: 1/2;
     }
