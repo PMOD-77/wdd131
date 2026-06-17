@@ -24,8 +24,12 @@ const aCourse = {
 
 // console.log(aCourse.code);
 
-// document.querySelector('#courseName').textContent = aCourse.name;
-// document.querySelector('#courseCode').textContent = aCourse.code;
+document.querySelector('#courseName').textContent = aCourse.name;
+document.querySelector('#courseCode').textContent = aCourse.code;
+
+document.querySelector('img').src = aCourse.logo;
+document.querySelector('img').alt = aCourse.name;
+document.querySelector('img').style.width = '100px';
 
 console.log(aCourse.sections);
 
