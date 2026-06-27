@@ -60,8 +60,7 @@ body {
   width: 16px;
 }
 
-/* CARD: mobile = column (image on top, text below) */
-.card {
+.recipe-card {
   display: flex;
   flex-direction: column;
   max-width: 600px;
@@ -77,7 +76,7 @@ body {
   object-fit: cover;
 }
 
-.card-content {
+.recipe-content {
   padding: 12px;
   display: flex;
   flex-direction: column;
@@ -155,7 +154,7 @@ body {
     width: 300px;
   }
 
-  .card {
+  .recipe-card {
     flex-direction: row;
     max-width: 900px;
   }
